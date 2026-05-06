@@ -28,9 +28,9 @@ export function Contact({ onOpenModal }) {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           id="contact-heading"
-          eyebrow="Contact"
-          title="Let’s build what’s next"
-          subtitle="Open to full-stack and junior software engineer roles where craft, ownership, and customer impact matter."
+          eyebrow="Get in touch"
+          title="Let's build something worth shipping"
+          subtitle="Actively interviewing for full-stack and software engineer roles where ownership, craft, and customer impact actually matter. Replies within one business day."
         />
 
         <motion.div
@@ -44,10 +44,11 @@ export function Contact({ onOpenModal }) {
               <div>
                 <p className="font-display text-sm font-medium text-cyan-glow">Direct lines</p>
                 <h3 className="mt-2 font-display text-2xl font-semibold text-white">
-                  Recruiters & hiring managers
+                  For recruiters & hiring managers
                 </h3>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-indigo-soft/85">
-                  Prefer email or a quick call? Reach out anytime—responses within one business day.
+                  Looking for a builder who owns problems end-to-end? Drop me a line — email, phone,
+                  or the form below. I respond within one business day, every time.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Button type="button" variant="primary" onClick={onOpenModal}>

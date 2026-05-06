@@ -17,7 +17,8 @@ export function Footer() {
         <div>
           <p className="font-display text-lg font-semibold text-white">{site.name}</p>
           <p className="mt-2 max-w-md text-sm leading-relaxed text-indigo-soft/80">
-            Full-stack developer building scalable web solutions with React, Node.js, and cloud.
+            Full-stack engineer shipping production-grade web apps with React, Node.js, and AWS.
+            Currently at Amdocs · open to roles.
           </p>
         </div>
         <nav aria-label="Footer">
@@ -69,7 +70,7 @@ export function Footer() {
         </nav>
       </div>
       <div className="border-t border-white/5 py-6 text-center text-xs text-indigo-soft/60">
-        © {year} {site.name}. Built for recruiters and teams who ship.
+        © {year} {site.name}. Designed and engineered from scratch — no templates, no shortcuts.
       </div>
     </footer>
   )

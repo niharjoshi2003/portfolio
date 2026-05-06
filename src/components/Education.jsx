@@ -17,8 +17,8 @@ export function Education() {
         <SectionHeading
           id="education-heading"
           eyebrow="Background"
-          title="Education & research"
-          subtitle="Engineering foundation with peer-reviewed work in serverless financial tech."
+          title="Education & published research"
+          subtitle="Engineering degree from one of Pune's top institutes — and a peer-reviewed publication in serverless financial tech."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">

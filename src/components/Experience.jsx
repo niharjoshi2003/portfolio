@@ -16,8 +16,8 @@ export function Experience() {
         <SectionHeading
           id="experience-heading"
           eyebrow="Career"
-          title="Experience"
-          subtitle="Production delivery at scale plus an internship foundation in React."
+          title="Where my code runs"
+          subtitle="Production engineering at Amdocs plus a hands-on React internship — real teams, real deadlines, real customers."
         />
 
         <div className="relative">

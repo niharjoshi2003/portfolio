@@ -19,6 +19,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -38,10 +41,16 @@
   body {
     @apply bg-space-navy text-indigo-soft antialiased min-h-svh font-sans;
     font-family: var(--font-sans);
+    overflow-x: hidden;
   }
 
   ::selection {
     @apply bg-cyan-glow/30 text-white;
+  }
+
+  /* Better focus rings on touch devices */
+  :focus-visible {
+    outline: none;
   }
 }
 
