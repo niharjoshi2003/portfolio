@@ -4,7 +4,7 @@ Personal portfolio website built with React and Vite to showcase my profile for 
 
 ## Live Site
 
-- [Portfolio](https://niharjoshi.vercel.app)
+- [Portfolio](https://portfolio-mu-ten-cx4b4tkk6h.vercel.app/)
 
 ## Positioning
 

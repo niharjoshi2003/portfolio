@@ -13,5 +13,5 @@ export const site = {
   resumeUrl: '/resume.pdf',
   resumeDownloadName: 'Nihar_Joshi_Software_Dev_Resume.pdf',
   ogImage: '/og-image.png',
-  url: env.VITE_SITE_URL || 'https://niharjoshi.vercel.app',
+  url: env.VITE_SITE_URL || 'https://portfolio-mu-ten-cx4b4tkk6h.vercel.app/',
 }

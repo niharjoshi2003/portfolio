@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://niharjoshi.vercel.app/sitemap.xml
+Sitemap: https://portfolio-mu-ten-cx4b4tkk6h.vercel.app/sitemap.xml
