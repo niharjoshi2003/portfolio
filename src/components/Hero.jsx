@@ -1,16 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import {
-  ArrowRight,
-  Download,
-  Github,
-  Linkedin,
-  Mail,
-  Sparkles,
-  Building2,
-  Cloud,
-  BookOpen,
-  Rocket,
-} from 'lucide-react'
+import { ArrowRight, Download, Github, Linkedin, Mail, Sparkles, Building2, Cloud, BookOpen, Rocket, CheckCircle2 } from 'lucide-react'
 import { site } from '../data/site'
 import { Button } from './common/Button'
 import { cn } from '../lib/cn'
@@ -23,46 +12,31 @@ const social = [
 
 const credibility = [
   { icon: Building2, label: 'Amdocs', sub: 'Production' },
-  { icon: Cloud, label: 'AWS', sub: 'Serverless' },
-  { icon: Rocket, label: '4 Projects', sub: 'Shipped live' },
-  { icon: BookOpen, label: 'ICTCS \'24', sub: 'Published' },
+  { icon: Cloud, label: 'Cloud + APIs', sub: 'System thinking' },
+  { icon: Rocket, label: '5 Projects', sub: 'Portfolio depth' },
+  { icon: BookOpen, label: 'ICTCS \'24', sub: 'Peer-reviewed' },
 ]
 
-function FloatingOrb() {
-  const reduce = useReducedMotion()
+const principles = ['Readable hierarchy', 'Evidence over hype', 'Systems built end-to-end']
+
+function DesignCard() {
   return (
-    <div
-      className="relative mx-auto h-44 w-44 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-64 lg:w-64"
-      aria-hidden
-    >
-      <motion.div
-        className="absolute inset-4 rounded-full border border-cyan-glow/30 bg-gradient-to-br from-cyan-glow/20 via-purple-neon/10 to-blue-electric/20 shadow-[0_0_40px_rgba(0,217,255,0.18)]"
-        animate={
-          reduce
-            ? undefined
-            : { rotateY: [0, 12, -8, 0], rotateX: [0, -6, 4, 0] }
-        }
-        transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
-        style={{ transformStyle: 'preserve-3d' }}
-      />
-      <motion.div
-        className="absolute inset-0 rounded-full border border-dashed border-purple-neon/25"
-        animate={reduce ? undefined : { rotate: 360 }}
-        transition={{ duration: 28, repeat: Infinity, ease: 'linear' }}
-      />
-      <motion.div
-        className="absolute inset-8 rounded-full border border-cyan-glow/20"
-        animate={reduce ? undefined : { rotate: -360 }}
-        transition={{ duration: 22, repeat: Infinity, ease: 'linear' }}
-      />
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-1 text-center">
-        <span className="font-display text-[10px] font-semibold uppercase tracking-[0.25em] text-cyan-glow/90">
-          React · Node · AWS
-        </span>
-        <span className="font-display text-[9px] font-medium uppercase tracking-[0.2em] text-indigo-soft/55">
-          Full-stack · Cloud
-        </span>
-      </div>
+    <div className="glass-panel mx-auto w-full max-w-sm rounded-2xl border border-white/12 p-5 sm:p-6">
+      <p className="font-display text-[11px] font-semibold uppercase tracking-[0.2em] text-cyan-glow/90">
+        Craft approach
+      </p>
+      <h3 className="mt-3 font-display text-xl font-semibold text-white">Built for real hiring review</h3>
+      <p className="mt-3 text-sm leading-relaxed text-indigo-soft/85">
+        A restrained visual system focused on clarity, trust, and technical depth instead of flashy effects.
+      </p>
+      <ul className="mt-4 space-y-2.5">
+        {principles.map((item) => (
+          <li key={item} className="flex items-center gap-2.5 text-sm text-indigo-soft/90">
+            <CheckCircle2 className="h-4 w-4 text-cyan-glow" aria-hidden />
+            {item}
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
@@ -84,10 +58,7 @@ export function Hero({ onConnect }) {
             transition={{ duration: 0.45 }}
             className="inline-flex items-center gap-2 rounded-full border border-cyan-glow/30 bg-cyan-glow/5 px-3 py-1.5 backdrop-blur"
           >
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-glow/70 opacity-75" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-glow" />
-            </span>
+            <span className="inline-flex h-2 w-2 rounded-full bg-cyan-glow" />
             <span className="font-display text-[11px] font-semibold uppercase tracking-widest text-cyan-glow">
               Available · Pune, India · Full-stack roles
             </span>
@@ -100,12 +71,10 @@ export function Hero({ onConnect }) {
             transition={{ delay: 0.08, duration: 0.5 }}
             className="font-display mt-5 text-[2rem] font-bold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-[3.25rem] lg:text-6xl"
           >
-            I ship{' '}
-            <span className="text-gradient-holo">production-grade</span>
+            I design and ship
             <br />
-            full-stack apps —
-            <br className="hidden sm:block" />{' '}
-            <span className="text-white">end to end.</span>
+            <span className="text-gradient-holo">production-grade</span> software
+            <br className="hidden sm:block" /> end to end.
           </motion.h1>
 
           <motion.p
@@ -117,11 +86,12 @@ export function Hero({ onConnect }) {
             Software Engineering Associate at{' '}
             <span className="font-semibold text-white">Amdocs</span>, building automation
             for a platform used in production. I&apos;ve shipped{' '}
-            <span className="font-semibold text-white">4 full-stack projects</span> across{' '}
+            <span className="font-semibold text-white">5 portfolio projects</span> across{' '}
             <span className="font-semibold text-white">React</span>,{' '}
-            <span className="font-semibold text-white">Node.js</span>, and{' '}
-            <span className="font-semibold text-white">AWS</span> — including a peer-to-peer
-            relay over WebSockets and a published serverless research paper.
+            <span className="font-semibold text-white">Node.js</span>,{' '}
+            <span className="font-semibold text-white">Python</span>, and cloud-native
+            architecture, including hackathon systems, production CRM tooling, and real-time
+            web platforms.
           </motion.p>
 
           <motion.div
@@ -220,11 +190,7 @@ export function Hero({ onConnect }) {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="relative order-first md:order-none"
         >
-          <div
-            className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-cyan-glow/10 via-transparent to-purple-neon/10 blur-2xl"
-            aria-hidden
-          />
-          <FloatingOrb />
+          <DesignCard />
         </motion.div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { ExternalLink, Github, Sparkles, Radio } from 'lucide-react'
+import { ExternalLink, Github, Sparkles, Radio, Gauge } from 'lucide-react'
 import { projects } from '../data/projects'
 import { Badge } from './common/Badge'
 import { buttonVariants } from '../lib/buttonVariants'
@@ -99,7 +99,7 @@ export function Projects() {
           id="projects-heading"
           eyebrow="Selected work"
           title="Things I've built and shipped"
-          subtitle="Real products solving real problems — a peer-to-peer relay over WebSockets, a production CRM in active use, a live habit tracker, and a peer-reviewed serverless system on AWS."
+          subtitle="Recent work across shipped products and hackathon builds — from real-time relays and production CRM tooling to AI security monitoring, parking intelligence, and ATS-focused workflow automation."
         />
 
         <div className="grid gap-6 sm:gap-8 lg:gap-10">
@@ -147,6 +147,30 @@ export function Projects() {
                       </li>
                     ))}
                   </ul>
+
+                  {project.stats?.length ? (
+                    <div className="mt-5">
+                      <p
+                        className={cn(
+                          'flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider',
+                          accentText[project.accent],
+                        )}
+                      >
+                        <Gauge className="h-3.5 w-3.5" aria-hidden />
+                        Impact snapshot
+                      </p>
+                      <div className="mt-2.5 flex flex-wrap gap-2">
+                        {project.stats.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-md border border-white/12 bg-white/[0.03] px-2.5 py-1 text-[11px] font-medium text-indigo-soft/90"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
 
                   <div className="mt-5 flex flex-wrap gap-1.5">
                     {project.tech.map((t) => (

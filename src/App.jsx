@@ -6,6 +6,7 @@ import { ParticleBackground } from './components/ParticleBackground'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { Stats } from './components/Stats'
+import { SelectionSignals } from './components/SelectionSignals'
 import { Projects } from './components/Projects'
 import { Skills } from './components/Skills'
 import { Experience } from './components/Experience'
@@ -74,6 +75,7 @@ function App() {
       <main id="main">
         <Hero onConnect={() => setContactOpen(true)} />
         <Stats />
+        <SelectionSignals />
         <Projects />
         <Skills />
         <Experience />

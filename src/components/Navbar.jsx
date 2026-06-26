@@ -8,6 +8,7 @@ import { cn } from '../lib/cn'
 const links = [
   { href: '#home', label: 'Home' },
   { href: '#highlights', label: 'Highlights' },
+  { href: '#selection', label: 'Why Me' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
   { href: '#experience', label: 'Experience' },

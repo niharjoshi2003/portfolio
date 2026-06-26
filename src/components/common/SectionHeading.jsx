@@ -27,7 +27,7 @@ export function SectionHeading({ eyebrow, title, subtitle, className, id }) {
       >
         {title}
         <span
-          className="mt-4 block h-1 w-24 rounded-full bg-gradient-to-r from-cyan-glow via-purple-neon to-blue-electric"
+          className="mt-4 block h-0.5 w-20 rounded-full bg-cyan-glow/70"
           aria-hidden
         />
       </motion.h2>

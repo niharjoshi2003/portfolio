@@ -34,9 +34,9 @@ export const education = {
   cgpa: '7.79 / 10',
   graduated: '2025',
   publication: {
-    title: 'Serverless Stock Pattern Detection',
-    venue: 'ICTCS 2024 · Peer-reviewed',
-    note: 'Authored and published peer-reviewed research on event-driven serverless architecture for real-time financial pattern detection on AWS.',
-    url: null,
+    title: 'Data Pipeline Approaches in Serverless Computing',
+    venue: 'ICTCS 2024 Proceedings · Springer (LNNS)',
+    note: 'Listed in the Proceedings of ICTCS 2024 (Volume 9) with authors Aryan Gavhale, Nihar Joshi, Rupesh Jahagirdar, and P. S. Varade. The proceedings are published by Springer with DOI and ISBN-backed metadata.',
+    url: 'https://doi.org/10.1007/978-981-96-5607-3',
   },
 }

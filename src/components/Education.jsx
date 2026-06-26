@@ -18,7 +18,7 @@ export function Education() {
           id="education-heading"
           eyebrow="Background"
           title="Education & published research"
-          subtitle="Engineering degree from one of Pune's top institutes — and a peer-reviewed publication in serverless financial tech."
+          subtitle="Engineering degree from one of Pune's top institutes — plus published research in ICTCS 2024 proceedings with Springer-backed metadata."
         />
 
         <div className="grid gap-6 lg:grid-cols-2">
