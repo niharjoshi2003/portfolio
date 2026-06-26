@@ -99,7 +99,7 @@ export function Projects() {
           id="projects-heading"
           eyebrow="Selected work"
           title="Things I've built and shipped"
-          subtitle="Recent work across shipped products and hackathon builds — from real-time relays and production CRM tooling to AI security monitoring, parking intelligence, and ATS-focused workflow automation."
+          subtitle="Recent work across shipped products and hackathon builds — from full-stack platforms and production CRM tooling to agentic AI security monitoring and real-time intelligence systems."
         />
 
         <div className="grid gap-6 sm:gap-8 lg:gap-10">

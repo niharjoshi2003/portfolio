@@ -12,7 +12,7 @@ const social = [
 
 const credibility = [
   { icon: Building2, label: 'Amdocs', sub: 'Production' },
-  { icon: Cloud, label: 'Cloud + APIs', sub: 'System thinking' },
+  { icon: Cloud, label: 'Agentic + APIs', sub: 'System thinking' },
   { icon: Rocket, label: '5 Projects', sub: 'Portfolio depth' },
   { icon: BookOpen, label: 'ICTCS \'24', sub: 'Peer-reviewed' },
 ]
@@ -60,7 +60,7 @@ export function Hero({ onConnect }) {
           >
             <span className="inline-flex h-2 w-2 rounded-full bg-cyan-glow" />
             <span className="font-display text-[11px] font-semibold uppercase tracking-widest text-cyan-glow">
-              Available · Pune, India · Full-stack roles
+              Available · Pune, India · Software Developer roles
             </span>
           </motion.div>
 
@@ -83,15 +83,14 @@ export function Hero({ onConnect }) {
             transition={{ delay: 0.25, duration: 0.45 }}
             className="mt-5 max-w-xl text-[15px] leading-relaxed text-indigo-soft/90 sm:text-base md:text-lg"
           >
-            Software Engineering Associate at{' '}
-            <span className="font-semibold text-white">Amdocs</span>, building automation
-            for a platform used in production. I&apos;ve shipped{' '}
-            <span className="font-semibold text-white">5 portfolio projects</span> across{' '}
+            Software Engineering Associate at <span className="font-semibold text-white">Amdocs</span>, building
+            production automation and workflow tooling. I ship{' '}
+            <span className="font-semibold text-white">full-stack products</span> and{' '}
+            <span className="font-semibold text-white">agentic AI systems</span> across{' '}
             <span className="font-semibold text-white">React</span>,{' '}
             <span className="font-semibold text-white">Node.js</span>,{' '}
-            <span className="font-semibold text-white">Python</span>, and cloud-native
-            architecture, including hackathon systems, production CRM tooling, and real-time
-            web platforms.
+            <span className="font-semibold text-white">Python</span>, and MCP-integrated
+            architectures.
           </motion.p>
 
           <motion.div

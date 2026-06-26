@@ -1,10 +1,16 @@
 # Nihar Joshi - Portfolio
 
-Personal portfolio website built with React and Vite to showcase projects, experience, skills, and contact details.
+Personal portfolio website built with React and Vite to showcase my profile for Software Developer roles focused on full-stack engineering and agentic AI systems.
 
 ## Live Site
 
 - [Portfolio](https://niharjoshi.vercel.app)
+
+## Positioning
+
+- Target Role: Software Developer (Full-Stack + Agentic AI)
+- Core Stack: React, Node.js, Express, Python, FastAPI, MySQL
+- Focus Areas: Production automation, real-time systems, MCP-integrated workflows
 
 ## Tech Stack
 
@@ -25,11 +31,12 @@ Personal portfolio website built with React and Vite to showcase projects, exper
 
 ## Project Highlights
 
-- Clean, responsive UI with reusable components
-- Dedicated sections for experience, education, skills, and projects
-- Project showcase with live links and repository links
-- Contact section with direct profile links (GitHub and LinkedIn)
+- Full-stack projects with architecture and impact summaries
+- Agentic AI work featuring MCP-based security monitoring and runtime telemetry
+- Dedicated sections for experience, education, capabilities, and selected work
+- Project cards with live demos, source links, technical highlights, and tech tags
+- Contact section with direct GitHub, LinkedIn, and email links
 
 ## Repository Purpose
 
-This repository is used to continuously improve and deploy my personal portfolio.
+This repository is used to continuously improve and deploy my personal portfolio with hiring-ready positioning for software developer opportunities.

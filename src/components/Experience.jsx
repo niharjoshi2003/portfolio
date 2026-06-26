@@ -17,7 +17,7 @@ export function Experience() {
           id="experience-heading"
           eyebrow="Career"
           title="Where my code runs"
-          subtitle="Production engineering at Amdocs plus a hands-on React internship — real teams, real deadlines, real customers."
+          subtitle="Production engineering at Amdocs with full-stack delivery and automation workflows, plus a hands-on React internship."
         />
 
         <div className="relative">

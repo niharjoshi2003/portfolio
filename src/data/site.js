@@ -2,9 +2,9 @@ const env = import.meta.env
 
 export const site = {
   name: 'Nihar Joshi',
-  title: 'Full-Stack Developer',
+  title: 'Software Developer (Full-Stack + Agentic AI)',
   tagline:
-    'Full-stack engineer at Amdocs building React + Node + Python systems — 5 portfolio projects, hackathon prototypes, and production automation in active use.',
+    'Software developer at Amdocs building full-stack and agentic AI systems with React, Node.js, and Python — shipped portfolio projects, hackathon prototypes, and production automation in active use.',
   email: env.VITE_CONTACT_EMAIL || 'nihar.joshi2003@gmail.com',
   phone: env.VITE_PHONE || '+917058250805',
   location: 'Pune, India',

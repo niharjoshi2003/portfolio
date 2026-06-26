@@ -8,6 +8,7 @@ export const experience = [
     current: true,
     bullets: [
       'Building production automation on the Ginger platform spanning web, mobile, and desktop surfaces.',
+      'Designing agentic workflow checks and tool-driven validation patterns for faster and safer releases.',
       'Driving quality and reliability for code that ships to enterprise customers — not a sandbox.',
       'Collaborating across QA, dev, and product teams in a fast-moving release cycle.',
       '9+ months of hands-on production engineering experience and counting.',

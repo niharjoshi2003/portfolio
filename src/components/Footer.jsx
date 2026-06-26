@@ -17,8 +17,9 @@ export function Footer() {
         <div>
           <p className="font-display text-lg font-semibold text-white">{site.name}</p>
           <p className="mt-2 max-w-md text-sm leading-relaxed text-indigo-soft/80">
-            Full-stack engineer shipping production-grade systems with React, Node.js, and
-            Python. Currently at Amdocs and open to software engineering roles.
+            Software developer shipping production-grade full-stack and agentic systems with
+            React, Node.js, and Python. Currently at Amdocs and open to software developer
+            roles.
           </p>
         </div>
         <nav aria-label="Footer">

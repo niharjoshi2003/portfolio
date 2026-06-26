@@ -45,8 +45,8 @@ export function Skills() {
         <SectionHeading
           id="skills-heading"
           eyebrow="Capabilities"
-          title="The full-stack toolkit"
-          subtitle="Depth across the entire stack — frontend, backend, data, and cloud — with proficiency levels grounded in shipped projects, not tutorials."
+          title="Full-stack + agentic toolkit"
+          subtitle="Depth across frontend, backend, data, cloud, and agentic AI orchestration with proficiency levels grounded in shipped projects."
         />
 
         <div className="grid gap-5 sm:gap-6 md:grid-cols-2 md:gap-8">

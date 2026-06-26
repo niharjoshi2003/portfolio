@@ -36,6 +36,8 @@ const jsonLd = {
     'MySQL',
     'AWS',
     'Full-stack development',
+    'Agentic AI systems',
+    'MCP tool orchestration',
   ],
 }
 
@@ -50,11 +52,11 @@ function App() {
         <link rel="canonical" href={site.url} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={site.url} />
-        <meta property="og:title" content={`${site.name} · Full-Stack Developer`} />
+        <meta property="og:title" content={`${site.name} · ${site.title}`} />
         <meta property="og:description" content={site.tagline} />
         <meta property="og:image" content={`${site.url}${site.ogImage}`} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${site.name} · Full-Stack Developer`} />
+        <meta name="twitter:title" content={`${site.name} · ${site.title}`} />
         <meta name="twitter:description" content={site.tagline} />
         <meta name="twitter:image" content={`${site.url}${site.ogImage}`} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>

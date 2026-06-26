@@ -60,7 +60,7 @@ export function SelectionSignals() {
           id="selection-heading"
           eyebrow="Selection Signals"
           title="Why this portfolio stands out"
-          subtitle="Structured for real review panels: visual originality for design reviewers, concise readability for HR, and architecture depth for software engineers."
+          subtitle="Structured for real review panels: concise readability for recruiters and architecture depth for software developer hiring teams."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

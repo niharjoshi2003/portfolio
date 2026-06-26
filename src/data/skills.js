@@ -36,6 +36,19 @@ export const skillCategories = [
     ],
   },
   {
+    id: 'agentic',
+    label: 'Agentic AI & Automation',
+    color: 'purple-neon',
+    icon: 'server',
+    skills: [
+      { name: 'MCP tool orchestration', level: 85 },
+      { name: 'LLM workflow design', level: 82 },
+      { name: 'Prompt and guardrail engineering', level: 80 },
+      { name: 'FastAPI-based agent backends', level: 80 },
+      { name: 'Real-time agent telemetry (SSE/WebSockets)', level: 78 },
+    ],
+  },
+  {
     id: 'tools',
     label: 'Tools & DevOps',
     color: 'indigo-soft',
