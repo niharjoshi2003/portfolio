@@ -3,13 +3,14 @@ import { motion, useInView, useReducedMotion, animate } from 'framer-motion'
 import { Calendar, Rocket, Trophy, Award } from 'lucide-react'
 import { Card } from './common/Card'
 import { SectionHeading } from './common/SectionHeading'
+import { getExperienceLabel } from '../lib/experience'
 
 const stats = [
   {
     key: 'years',
-    label: 'Years building production software',
-    display: (v) => `${v.toFixed(1)}+`,
-    target: 1.0,
+    label: 'Experience building production software',
+    display: () => getExperienceLabel(),
+    isStatic: true,
     icon: Calendar,
     accent: 'text-cyan-glow',
   },

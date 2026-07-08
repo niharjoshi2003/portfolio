@@ -7,11 +7,11 @@ export const experience = [
     period: 'Jul 2025 – Present',
     current: true,
     bullets: [
-      'Building production automation on the Ginger platform spanning web, mobile, and desktop surfaces.',
-      'Designing agentic workflow checks and tool-driven validation patterns for faster and safer releases.',
-      'Driving quality and reliability for code that ships to enterprise customers — not a sandbox.',
-      'Collaborating across QA, dev, and product teams in a fast-moving release cycle.',
-      '9+ months of hands-on production engineering experience and counting.',
+      'Built AI automation that operates enterprise CRM workflows end to end, reducing manual provisioning from 8-10 minutes to 97 seconds.',
+      'Automated retail and telesales order flows across test environments using Playwright-driven execution.',
+      'Built Cursor-based automation package that lets teammates trigger complex CRM workflows from plain-English prompts.',
+      'Designing agentic validation patterns for safer and faster release cycles on production telecom systems.',
+      'Collaborating across engineering, QA, and product teams to ship enterprise-grade workflow automation.',
     ],
   },
   {
